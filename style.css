@@ -1,0 +1,261 @@
+body{
+   background-color: rgb(53, 52, 52);
+   font-family: oswald;
+   margin: 0px;
+}
+
+
+
+  
+  header{
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    }
+
+    .img-header{
+      display: flex;
+    }
+
+   header img{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: right;
+    }
+    header img:hover{
+      filter: drop-shadow(0px -2px 20px black);
+    }
+
+  p{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+
+  .inputContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10x;
+    border: 1px solid rgb(95, 94, 94);
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 1px rgb(29, 28, 28);
+    background-color: rgb(37, 36, 36);
+    margin: 20px 400px;
+    min-width: 300px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #272323;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background: url();
+    color: white;
+    font-family: Oswald;
+    font-size: 23px;
+    font-weight: bolder;
+    border: 20px;
+    letter-spacing: 3px;
+  }
+
+  .textarea{
+
+    border-style: none;
+    font-family: 'Oswald';
+    color: hsla(240,7%,97%,1);
+    border-image: revert-layer;
+    width: -webkit-fill-available;
+    font-size: 23px;
+    background-color: unset;
+    height: 100px;
+    padding-left: 20px;
+  
+  }
+
+  .btnContainer{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .trash-Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .trash-Container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .trash-Container img:hover{
+   filter: drop-shadow(0px -2px 20px black);
+    cursor: pointer;
+  }
+
+
+  .btnContainer button{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(68, 66, 66);
+    border: 1px solid rgb(95, 94, 94);
+    border-radius: 5px;
+  }
+
+ 
+
+  .btnContainer button:hover{
+    box-shadow: 0px 10px 10px 1px rgb(29, 28, 28);
+    cursor: pointer;
+  }
+
+
+  .img-button{
+    display: inline;
+  }
+
+  .NoteContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: rgb(37, 36, 36);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    box-shadow: 0px 10px 10px 1px rgb(29, 28, 28);
+    color: white;
+    height: max-content;
+    width: max-content;
+    }
+
+   
+
+
+  .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    }
+
+  .deleteContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+    gap: 10px;
+    
+   }
+
+  .deleteContainer img{
+      width: 50px;
+  }
+
+  .deleteContainer2 {
+    background-color: rgb(37, 36, 36);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    box-shadow: 0px 10px 10px 1px rgb(29, 28, 28);
+    color: white;
+    margin-top: 50px;
+  }
+
+  .deleteContainer2 img{
+    width: 50px;
+    margin-top: 50px;
+  }
+
+  .deleteContainer2 img:hover{
+    filter: drop-shadow(0px 2px 15px black);
+    cursor: pointer;
+  }
+
+  .Note-img{
+    height: 60px;
+    width: 60px 
+  }
+
+  .deleteAll-container{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .deleteAll-container button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: oswald;
+    background: #575757;
+    border-radius: 10px;
+    
+  }
+
+  .deleteAll-container button:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 1px rgb(29, 28, 28);
+  }
+
+   
+  
+@media(max-width: 800px) {
+  header{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   }
+
+    .inputContainer{
+        display: flex;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+  
+}
+
+@media(max-width: 400px){
+  .deleteContainer2{
+    font-size: 20px;
+  }
+}
+
+  
+  
+  
+  
+  
